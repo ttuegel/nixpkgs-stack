@@ -1,0 +1,50 @@
+{
+    "haskell.nix": {
+        "branch": "master",
+        "description": "Alternative Haskell Infrastructure for Nixpkgs",
+        "homepage": "https://input-output-hk.github.io/haskell.nix",
+        "owner": "circuithub",
+        "repo": "haskell.nix",
+        "rev": "768768b7b068a3ceb20e65d3a4256de3a704ea66",
+        "sha256": "012vimmpxdrglwi53axkyfrsqnhy8y2wcjpgdk59kcyx6z1dgd6z",
+        "type": "tarball",
+        "url": "https://github.com/circuithub/haskell.nix/archive/768768b7b068a3ceb20e65d3a4256de3a704ea66.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "8b7b70465c130d8d7a98fba1396ad1481daee518",
+        "sha256": "0fgdrxn2vzpnzr6pxaiyn5zzbd812c6f7xjjhfir0kpzamjnxwwl",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/8b7b70465c130d8d7a98fba1396ad1481daee518.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-19.03",
+        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+        "homepage": "https://github.com/NixOS/nixpkgs",
+        "owner": "NixOS",
+        "repo": "nixpkgs-channels",
+        "rev": "b978a94c8f9167fb86372ce1044a23f8df2edea0",
+        "sha256": "0p6n5f1m45mhms9nbpr08gh4as8vys6ii65mcs227dbq3nn126x1",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/b978a94c8f9167fb86372ce1044a23f8df2edea0.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "stack": {
+        "branch": "v2.1.3",
+        "description": "The Haskell Tool Stack",
+        "homepage": "http://haskellstack.org",
+        "owner": "commercialhaskell",
+        "repo": "stack",
+        "rev": "b2e2f3d0568e6d73fc0477dee8ca7c04466ec1f6",
+        "sha256": "03pgadw10yi5kh8wifwblp6vh28bgrn4szqshvfgg9b51zkl80gd",
+        "type": "tarball",
+        "url": "https://github.com/commercialhaskell/stack/archive/b2e2f3d0568e6d73fc0477dee8ca7c04466ec1f6.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
